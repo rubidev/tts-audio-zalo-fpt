@@ -16,3 +16,5 @@ Text Domain: ttsaudio
 Domain Path: /languages
 
 */
+
+KEY API ZALO TTS LẤY TẠI https://zalo.ai/docs/api/text-to-audio-converter
