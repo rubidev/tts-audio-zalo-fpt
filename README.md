@@ -1,25 +1,10 @@
-<script src="https://stc-ai-developers.zdn.vn/js/hls.js"></script>
-<script>document.addEventListener('DOMContentLoaded', () => {
-	const source =  document.querySelector('audio').querySelector('source').getAttribute('src');
-	const audio = document.querySelector('audio');
-	
-	// For more options see: https://github.com/sampotts/plyr/#options
-	// captions.update is required for captions to work with hls.js
-	
-	if (!Hls.isSupported()) {
-		audio.src = source;
-	} else {
-		// For more Hls.js options, see https://github.com/dailymotion/hls.js
-		const hls = new Hls();
-		hls.loadSource(source);
-		hls.attachMedia(audio);
-		window.hls = hls;
-		
-		// Handle changing captions
-		
-	}
-	
-	// Expose player so it can be used from the console
-	//window.player = player;
-});
-</script>
+/*
+Plugin Name: TTS Audio ZALO FPT
+Plugin URI: https://github.com/rubidev/tts-audio-zalo-fpt
+Description: Chuyển văn bản thành giọng nói AI (ZALO, FPT, ..)
+Author: GearThemes - Custom by DANGNGOCSON.COM
+Author URI: https://dangngocson.com
+Version: 1.1
+Text Domain: ttsaudio
+Domain Path: /languages
+*/
